@@ -12,21 +12,17 @@ Welcome to **AIOpsDine**, an innovative AI-powered restaurant management system.
 - **Scalable Architecture**: Built with FastAPI, SQLite/Postgres, and asyncio.
 
 ## Architecture
+### System Diagram
 
-[Clients: Streamlit UI / Web App]
-           |
-           v
-     FastAPI Backend
-        (REST API)
-           |
-           v
-   Orchestrator <--> Message Bus
-      | | | |
-      v v v v
- [Agents: FAQ, Vision, Order, Reco, Analytics]
-      |
-      v
- [Data: SQL DB, Object Storage, Models]
+           [Clients: Streamlit UI / Web App]
+                      ↓
+           [FastAPI Backend (REST API)]
+                      ↓
+           [Orchestrator <--> Message Bus]
+                      ↓
+           [Agents: FAQ, Vision, Order, Reco, Analytics]
+                      ↓
+           [Data: SQL DB, Object Storage, Models]
 
 - **Orchestrator**: Coordinates agent workflows (e.g., table assignment).
 - **Agents**: Handle specialized tasks with clear I/O contracts.

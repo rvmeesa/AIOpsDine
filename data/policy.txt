@@ -1,0 +1,6 @@
+Restaurant Policy:
+- Hours: Open daily from 9 AM to 10 PM.
+- Reservations: Accepted via phone or online; priority for reserved tables.
+- Dietary: Vegan and gluten-free options available; ask for allergen details.
+- Payment: All major credit cards, mobile payments accepted.
+- Cancellations: Notify at least 1 hour before reservation time.

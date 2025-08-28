@@ -1,0 +1,27 @@
+# Web/API
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.4
+python-dotenv==1.0.1
+# LangChain + Mistral
+langchain==0.2.16
+langchain-mistralai==0.1.12
+# Data & ML
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+# Computer Vision (MVP)
+opencv-python==4.10.0.84
+Pillow==10.3.0
+# FastAPI uploads (images)
+python-multipart==0.0.9
+aiofiles==23.2.1
+aiohttp==3.9.5
+#Testing
+pytest==7.4.0
+pytest-asyncio==0.23.6
+pytest-cov==4.1.0
+
+streamlit==1.38.0 
+requests==2.32.3 
+plotly==5.22.0
